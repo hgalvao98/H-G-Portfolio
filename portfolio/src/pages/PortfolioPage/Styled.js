@@ -1,0 +1,45 @@
+import styled  from "styled-components";
+
+export const Main = styled.div`
+    height:100vh;
+`
+export const Body = styled.div`
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:start; 
+    background-color:#132020;
+    h1{
+        font-size:100px;
+        color:#FAA353;
+    }
+    h3{
+        font-size:60px;
+        color:white;
+    }
+    button{
+        padding:8px;
+        border-radius:1rem;
+        align-self:center;
+        border:none;
+        :hover{
+            cursor:pointer;
+            background-color:#333;
+        }
+`
+export const Projects = styled.div`
+    display:flex;
+    flex-direction:row;
+    h3:nth-child(1){
+        color:white;
+    }
+    h3{
+        color:#FAA353;
+        margin-left:5px;
+        :hover{
+            color:#78BFE7;
+            cursor:pointer;
+        }
+    }
+`
