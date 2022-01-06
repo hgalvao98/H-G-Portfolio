@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
@@ -29,13 +29,12 @@ export const Projects = styled.div`
     background-color:transparent;
     justify-content:center;
     align-items:center;
-    padding-left:45px;
     flex-direction:row;
     i{
         margin-top:12px;
         color:white;
         :hover{
-            color:black;
+            color:#FAA353;
             cursor:pointer;
         }
     }

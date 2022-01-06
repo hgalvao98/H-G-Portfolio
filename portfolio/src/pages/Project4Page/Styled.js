@@ -19,6 +19,10 @@ export const Body = styled.div`
         font-size:60px;
         color:white;
     }
+    a{
+        text-decoration:none;
+        color:black; 
+    }
 `
 export const Projects = styled.div`
     display:flex;
@@ -51,10 +55,10 @@ export const Projects = styled.div`
 `
 export const Card = styled.div`
     margin-top:20px;
-    height:550px;
+    height:auto;
     width:700px;
     background-color:#F3F3F3;
-    border-radius:10%;
+    border-radius:5%;
     z-index:2;
     display:flex;
     flex-direction:column;
@@ -63,21 +67,19 @@ export const Card = styled.div`
     padding:8px;
     img{
         margin-top:100px;
-        margin-bottom:100px;
+        margin-bottom:50px;
         height:200px;
-        :hover{
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            cursor:pointer;
-        }
     }
 `
 export const Logo = styled.div`
-
+    img{
+        width: 300px;
+        height:auto;
+    }
 `
 
 export const Info = styled.div`
+    margin-top:8px;
     display:flex;
     align-items:center;
     flex-direction:column;

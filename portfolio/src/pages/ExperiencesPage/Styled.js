@@ -1,7 +1,7 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
-    height:100vh;
+    height:100%;
 `
 export const Body = styled.div`
     height:100%;
@@ -23,6 +23,7 @@ export const Body = styled.div`
     h2{
         font-size:40px;
         color:#FAA353;
+        margin-bottom:16px;
     }
     button{
         padding:8px;
@@ -45,10 +46,14 @@ export const Exp = styled.div`
     flex-direction:row;
     align-items:center;
     :first-of-type img{
-        background-color:white;
+        background-color:black;
         border-radius:2rem;
     }
     :nth-of-type(2) img{
+        background-color:white;
+        border-radius:50%;
+    }
+    :nth-of-type(3) img{
         background-color:white;
         border-radius:50%;
     }
@@ -64,6 +69,9 @@ export const Technologies = styled.div`
     display:flex;
     flex-direction:row;
     align-items:center;
+    background-color:white;
+    border-radius:15px;
+    margin-bottom:16px;
 `
 
 
