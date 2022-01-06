@@ -17,7 +17,7 @@ export default function Project3() {
 
             <Body>
                 <Projects>
-                <i class="ri-arrow-left-fill ri-3x" onClick={() => goToPortfolio(history)}></i> <h3>project-3: </h3> <h3> {project2}</h3>
+                    <i class="ri-home-4-line ri-3x" onClick={() => goToPortfolio(history)}></i> <h3>project-3: </h3> <h3> {project2}</h3>
                 </Projects>
                 <Card>
                     <Logo>
@@ -31,7 +31,7 @@ export default function Project3() {
                         <br />
                     </Info>
                 </Card>
-                
+
             </Body>
         </Main>
     )

@@ -8,6 +8,8 @@ import ContactPage from '../pages/ContactPage/ContactPage'
 import Project1 from '../pages/Project1Page/Project1';
 import Project2Page from '../pages/Project2Page/Project2Page';
 import Project3Page from '../pages/Project3Page/Project3Page';
+import Project4Page from '../pages/Project4Page/Project4Page';
+import Project5Page from '../pages/Project5Page/Project5Page';
 
 
 export function Router() {
@@ -40,6 +42,14 @@ export function Router() {
 
                 <Route exact path="/portfolio/project3">
                     <Project3Page />
+                </Route>
+
+                <Route exact path="/portfolio/project4">
+                    <Project4Page />
+                </Route>
+
+                <Route exact path="/portfolio/project5">
+                    <Project5Page />
                 </Route>
 
                 <Route exact path="/contact">

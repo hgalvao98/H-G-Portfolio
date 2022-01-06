@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
@@ -19,6 +19,7 @@ export const Body = styled.div`
         font-size:50px;
         color:#FAA353;
         align-self:center;
+        margin-bottom:16px;
     }
     button{
         padding:8px;

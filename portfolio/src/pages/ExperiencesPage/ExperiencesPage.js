@@ -4,13 +4,18 @@ import Header from '../../components/header/Header'
 import { Main, Body, Exp, Technologies } from './Styled'
 import { goToHomePage, goToPortfolio } from '../../routes/coordinator'
 import DocuSign from '../../imgs/DocuSign.png'
+import compassUol from '../../imgs/compassUol.png'
 import SAM from '../../imgs/SAM.png'
 import UOFA from '../../imgs/UOFA.png'
 import Adwords from '../../imgs/Adwords.png'
 import Analytics from '../../imgs/Analytics.png'
 import HTML from '../../imgs/HTML.png'
 import ReactLogo from '../../imgs/ReactLogo.png'
-import typescript from '../../imgs/typescript.png'
+import typescript2 from '../../imgs/typescript2.svg'
+import redux from '../../imgs/redux.png'
+import nodejs from '../../imgs/nodejs.png'
+import mysql from '../../imgs/mysql.png'
+import rubyonrails from '../../imgs/rubyonrails.png'
 
 export default function ExperiencesPage() {
     const history = useHistory()
@@ -23,6 +28,9 @@ export default function ExperiencesPage() {
             <Body>
 
                 <h2>{experiences}</h2>
+                <Exp>
+                    <img src={compassUol} alt='compassUol'></img><p><em>Compass.uol</em> is a Brazilian Tech Company that offer tech services and solutions. I am now acting as Front-end and DEV developer. Allocated Portinfo and internal projects. </p>
+                </Exp>
                 <Exp>
                     <img src={DocuSign} alt='docusign'></img><p><em>DocuSign</em> is an American Company that started in San Francisco. It’s services
                         allow organizations to manage electronic agreements. I spent 3 months interning
@@ -40,12 +48,15 @@ export default function ExperiencesPage() {
                 </Exp>
                 <h2>{technologies}</h2>
                 <Technologies>
-                <img src={Adwords} alt='adwords'></img>
-                <img src={Analytics} alt='adwords'></img>
-                <img src={HTML} alt='adwords'></img>
-                <img src={ReactLogo} alt='adwords'></img>
-                <img src={typescript} alt='adwords'></img>
-             
+                    <img src={Adwords} alt='adwords'></img>
+                    <img src={Analytics} alt='Analytics'></img>
+                    <img src={HTML} alt='HTML'></img>
+                    <img src={ReactLogo} alt='React'></img>
+                    <img src={typescript2} alt='typescript'></img>
+                    <img src={redux} alt='redux'></img>
+                    <img src={nodejs} alt='nodejs'></img>
+                    <img src={mysql} alt='mysql'></img>
+                    <img src={rubyonrails} alt='rubyonrails'></img>
                 </Technologies>
             </Body>
 

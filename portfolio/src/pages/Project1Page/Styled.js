@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
@@ -29,7 +29,6 @@ export const Projects = styled.div`
     background-color:transparent;
     justify-content:center;
     align-items:center;
-    padding-left:45px;
     flex-direction:row;
     h3:nth-child(2){
         color:white;
@@ -44,7 +43,7 @@ export const Projects = styled.div`
         margin-top:12px;
         color:white;
         :hover{
-            color:black;
+            color:#FAA353;
             cursor:pointer;
         }
     }
@@ -62,6 +61,7 @@ export const Card = styled.div`
     justify-content:flex-start;
     img{
         margin-top:30px;
+        margin-bottom:10px;
         height:300px;
         :hover{
             -webkit-transform: scale(1.1);
@@ -85,6 +85,7 @@ export const Info = styled.div`
     justify-content:center;
     p:nth-child(1){
         text-align:center;
+        margin:0 8px;
     }
     p:nth-child(6){
         font-size:10px;

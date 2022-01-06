@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
@@ -18,6 +18,9 @@ export const Body = styled.div`
     }
     p em{
         color:#78BFE7;
+    }
+    a{
+        text-decoration:none;
     }
     h1{
         font-size:100px;
