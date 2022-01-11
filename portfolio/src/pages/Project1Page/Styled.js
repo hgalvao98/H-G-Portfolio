@@ -77,6 +77,12 @@ export const Card = styled.div`
         text-decoration:none;
         color:white;
     }
+    @media only screen and (max-width: 768px) {
+        width:90%;
+        border-radius:0;
+        height:700px;
+        border-radius:15px;
+    }
 `
 export const Logo = styled.div`
     margin-bottom:10px;
@@ -87,6 +93,9 @@ export const Info = styled.div`
     align-items:center;
     flex-direction:column;
     justify-content:center;
+    p{
+        text-align:center;
+    }
     p:nth-child(1){
         text-align:center;
         margin:0 8px;

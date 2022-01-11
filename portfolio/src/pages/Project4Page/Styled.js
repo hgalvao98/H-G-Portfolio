@@ -52,6 +52,14 @@ export const Projects = styled.div`
         font-size:40px;
         
     }
+    @media only screen and (max-width: 768px) {
+        h3{
+            font-size:30px;
+        }
+        h3:nth-child(2){
+        font-size:30px;
+    }
+    }
 `
 export const Card = styled.div`
     margin-top:20px;
@@ -69,6 +77,16 @@ export const Card = styled.div`
         margin-top:100px;
         margin-bottom:50px;
         height:200px;
+    }
+    @media only screen and (max-width: 768px) {
+        img{
+            width:300px;
+            height:150px;
+        }
+        width:90%;
+        border-radius:0;
+        height:500px;
+        border-radius:15px;
     }
 `
 export const Logo = styled.div`

@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
@@ -27,6 +27,16 @@ export const Body = styled.div`
             cursor:pointer;
             background-color:#333;
         }
+    }
+    @media only screen and (max-width: 768px) {
+        h1{
+            font-size:80px;
+        }
+        h3{
+            font-size:25px;
+            margin-top:10px;
+        }
+    }
 `
 export const Projects = styled.div`
     display:flex;

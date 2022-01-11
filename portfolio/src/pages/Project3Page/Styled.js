@@ -77,6 +77,16 @@ export const Card = styled.div`
         text-decoration:none;
         color:black;
     }
+    @media only screen and (max-width: 768px) {
+        img{
+            width:300px;
+            height:150px;
+        }
+        width:90%;
+        border-radius:0;
+        height:600px;
+        border-radius:15px;
+    }
 `
 export const Logo = styled.div`
     margin-bottom:-50px;

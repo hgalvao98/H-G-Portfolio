@@ -31,6 +31,15 @@ export const Body = styled.div`
             background-color:#333;
         }
     }
+    @media only screen and (max-width: 768px) {
+        i{
+            font-size:30px;
+        }
+        p{
+            font-size:20px;
+            margin-left:10px;
+        }
+    }
 `
 export const Info = styled.div`
     display:flex;

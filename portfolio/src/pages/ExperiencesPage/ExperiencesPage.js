@@ -46,6 +46,7 @@ export default function ExperiencesPage() {
                         to develop people skills. It ended up being a great job as I met and learn to
                         interact with many different people from multiple backgrounds.</p>
                 </Exp>
+                <hr />
                 <h2>{technologies}</h2>
                 <Technologies>
                     <img src={Adwords} alt='adwords'></img>
