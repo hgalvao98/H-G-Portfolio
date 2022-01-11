@@ -35,4 +35,10 @@ export const Body = styled.div`
             background-color:#333;
         }
     }
+    a{
+        color:white;
+        :hover{
+            text-decoration:underline;
+        }
+    }
 `

@@ -50,7 +50,7 @@ export const Projects = styled.div`
 `
 export const Card = styled.div`
     margin-top:20px;
-    height:550px;
+    height:600px;
     width:700px;
     background-color:#234359;
     border-radius:10%;
@@ -71,11 +71,15 @@ export const Card = styled.div`
             background-color:#78BFE7;
             border-radius:15em;
         }
-        
+    }
+    a{
+        margin-bottom:16px;
+        text-decoration:none;
+        color:white;
     }
 `
 export const Logo = styled.div`
-
+    margin-bottom:10px;
 `
 
 export const Info = styled.div`

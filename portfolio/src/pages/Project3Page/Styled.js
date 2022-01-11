@@ -72,9 +72,14 @@ export const Card = styled.div`
             cursor:pointer;
         }
     }
+    a{
+        margin-bottom:16px;
+        text-decoration:none;
+        color:black;
+    }
 `
 export const Logo = styled.div`
-
+    margin-bottom:-50px;
 `
 
 export const Info = styled.div`

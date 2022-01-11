@@ -2,6 +2,8 @@ import React from 'react'
 import { useHistory } from 'react-router-dom'
 import Header from '../../components/header/Header'
 import { Main, Body } from './Styled'
+import Resume from '../../assets/Resume.pdf'
+import Curriculo from '../../assets/Curriculo.pdf'
 
 export default function AboutMePage() {
 
@@ -26,6 +28,8 @@ export default function AboutMePage() {
                     <br />
                     To see the code for this website or all my projects visit my <a href="https://github.com/hgalvao98"><em>GitHub</em></a>
                 </p>
+                <a href={Curriculo} download><i class="ri-pages-line" />Baixe meu CV!(Portugues)</a>
+                <a href={Resume} download><i class="ri-pages-line" />Download my CV!(English)</a>
             </Body>
 
         </Main>

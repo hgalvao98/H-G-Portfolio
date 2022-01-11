@@ -23,6 +23,7 @@ export default function Project1() {
                     <Logo>
                         <a target="_blank" href="http://minimal-match.surge.sh/"><img src={tinder}></img></a>
                     </Logo>
+                    <a target="_blank" href="https://github.com/future4code/Henrique-Galvao/tree/master/semana9/semana9-astromatch/astromatch"><i class="ri-github-fill ri-2x"></i></a>
                     <Info>
                         <p>Created as a project for Labenu. This app has similar features to Tinder. It was made
                             using a public API. </p>

@@ -37,3 +37,7 @@ export const goToProject4 = (history) => {
 export const goToProject5 = (history) => {
     history.push("/portfolio/project5")
 }
+
+export const goToProject6 = (history) => {
+    history.push("/portfolio/project6")
+}

@@ -19,6 +19,10 @@ export const Body = styled.div`
         font-size:60px;
         color:white;
     }
+    a{
+        text-decoration:none;
+        color:black; 
+    }
 `
 export const Projects = styled.div`
     display:flex;
@@ -51,39 +55,33 @@ export const Projects = styled.div`
 `
 export const Card = styled.div`
     margin-top:20px;
-    height:550px;
+    height:auto;
     width:700px;
-    background-color:#F49898;
+    background-color:#F3F3F3;
     border-radius:10%;
     z-index:2;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
+    padding:8px;
     img{
-        margin-top:60px;
-        margin-bottom:80px;
-        height:300px;
-        :hover{
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            cursor:pointer;
-            background-color:#FFB5B5;
-            border-radius:15em;
-        }    
-    }
-    a{
-        margin-bottom:16px;
-        text-decoration:none;
-        color:black;
+        margin-top:100px;
+        margin-bottom:50px; 
     }
 `
 export const Logo = styled.div`
-    margin-bottom:-40px;
+    
+`
+
+export const Icons = styled.div`
+    i{
+        padding:10px;
+    }
 `
 
 export const Info = styled.div`
+    margin-top:8px;
     display:flex;
     align-items:center;
     flex-direction:column;

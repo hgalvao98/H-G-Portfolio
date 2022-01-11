@@ -23,6 +23,7 @@ export default function Project1() {
                     <Logo>
                         <a target="_blank" href="http://labex-henrique.surge.sh"><img src={LabeXLogo}></img></a>
                     </Logo>
+                    <a target="_blank" href="https://github.com/future4code/Henrique-Galvao/tree/master/semana10/labex/labex"><i class="ri-github-fill ri-2x"></i></a>
                     <Info>
                         <p>Created as a project for Labenu. This is a space travel website. You can create trips,
                             sign up for trips and also approve or reject candidates! It was made using a public API. </p>
