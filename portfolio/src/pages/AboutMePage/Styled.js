@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Main = styled.div`
     height:100vh;
     @media only screen and (max-width: 768px) {
+        height:unset;
     }
 `
 export const Body = styled.div`
@@ -52,6 +53,9 @@ export const Body = styled.div`
     }
     p{
         padding:0;
+    }
+    a:last-child{
+        margin-bottom:50px;
     }
     }
 `

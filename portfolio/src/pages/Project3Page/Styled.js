@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
+    @media only screen and (max-width: 768px) {
+        height:unset;
+    }
 `
 
 export const Body = styled.div`
@@ -60,6 +63,7 @@ export const Card = styled.div`
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
+    margin-bottom:20px;
     padding:8px;
     img{
         margin-top:100px;
@@ -89,7 +93,12 @@ export const Card = styled.div`
     }
 `
 export const Logo = styled.div`
-    margin-bottom:-50px;
+    img{
+        margin-bottom:20px;
+    }
+    p{
+        text-align:center;
+    }
 `
 
 export const Info = styled.div`

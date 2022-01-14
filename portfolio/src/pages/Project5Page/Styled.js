@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
+    @media only screen and (max-width: 768px) {
+        height:unset;
+    }
 `
 
 export const Body = styled.div`
@@ -57,6 +60,7 @@ export const Card = styled.div`
     margin-top:20px;
     height:auto;
     width:700px;
+    margin-bottom:20px;
     background-color:#F3F3F3;
     border-radius:10%;
     z-index:2;
@@ -89,7 +93,9 @@ export const Card = styled.div`
     }
 `
 export const Logo = styled.div`
-
+    p{
+        text-align:center;
+    }
 `
 
 export const Info = styled.div`

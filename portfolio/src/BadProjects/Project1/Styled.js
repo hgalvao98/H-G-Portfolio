@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
+    @media only screen and (max-width: 768px) {
+        height:unset;
+    }
 `
 
 export const Body = styled.div`
@@ -18,10 +21,6 @@ export const Body = styled.div`
     h3{
         font-size:60px;
         color:white;
-    }
-    a{
-        text-decoration:none;
-        color:black; 
     }
 `
 export const Projects = styled.div`
@@ -50,55 +49,68 @@ export const Projects = styled.div`
         color:#FAA353;
         margin-left:5px;
         font-size:40px;
-        
+    }
+    @media only screen and (max-width: 768px) {
+        h3{
+            font-size:25px;
+        }
+        h3:nth-child(2){
+        color:white;
+        font-size:25px;
+    }
     }
 `
 export const Card = styled.div`
     margin-top:20px;
-    height:auto;
+    height:550px;
     width:700px;
-    background-color:#F3F3F3;
+    background-color:#F49898;
     border-radius:10%;
     z-index:2;
+    margin-bottom:20px;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
-    padding:8px;
     img{
-        margin-top:100px;
-        margin-bottom:50px; 
+        margin-top:60px;
+        margin-bottom:80px;
+        height:300px;
+        :hover{
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            cursor:pointer;
+            background-color:#FFB5B5;
+            border-radius:15em;
+        }    
+    }
+    a{
+        margin-bottom:16px;
+        text-decoration:none;
+        color:black;
     }
     @media only screen and (max-width: 768px) {
-        img{
-            width:300px;
-            height:50px;
-        }
         width:90%;
         border-radius:0;
-        height:500px;
+        height:600px;
         border-radius:15px;
     }
 `
 export const Logo = styled.div`
-    
-`
-
-export const Icons = styled.div`
-    i{
-        padding:10px;
+    img{
+        margin-bottom:20px;
+    }
+    p{
+        text-align:center;
     }
 `
 
 export const Info = styled.div`
-    margin-top:8px;
     display:flex;
     align-items:center;
     flex-direction:column;
     justify-content:center;
-    p{
-        text-align:center;
-    }
     p:nth-child(1){
         text-align:center;
     }
@@ -109,6 +121,6 @@ export const Info = styled.div`
         font-size:10px;
     }
     p:nth-child(5){
-        font-size:15px;
+        font-size:10px;
     }
 `

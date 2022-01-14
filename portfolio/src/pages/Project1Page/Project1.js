@@ -9,7 +9,7 @@ import { Main, Body, Projects, Card, Info, Logo } from './Styled'
 export default function Project1() {
     const history = useHistory()
 
-    const project1 = "LabeX;"
+    const project1 = "TodoApp;"
 
     return (
         <Main>
@@ -21,18 +21,15 @@ export default function Project1() {
                 </Projects>
                 <Card>
                     <Logo>
-                        <a target="_blank" href="http://labex-henrique.surge.sh"><img src={LabeXLogo}></img></a>
+                        <img src={LabeXLogo}></img>
                     </Logo>
-                    <a target="_blank" href="https://github.com/future4code/Henrique-Galvao/tree/master/semana10/labex/labex"><i class="ri-github-fill ri-2x"></i></a>
+                    <a target="_blank" href="https://github.com/hgalvao98/todoApp"><i class="ri-github-fill ri-2x"></i></a>
                     <Info>
-                        <p>Created as a project for Labenu. This is a space travel website. You can create trips,
-                            sign up for trips and also approve or reject candidates! It was made using a public API. </p>
+                        <p>Created as a project to practice Express and NodeJs. This is a CRUD app, I also included a Drag and Drop library
+                            to practice for the first time. </p>
                         <br />
-                        <p>Technologies used: React, Styled-Components, Axios, React Router, React Hooks  </p>
+                        <p>Technologies used: React, Styled-Components, Axios, React Hooks, React Beautiful Dnd, Express, NodeJs </p>
                         <br />
-                        <p>To enter Admin page:</p>
-                        <p>Login:adm@gmail.com.br</p>
-                        <p>Password: theyrecoming</p>
                     </Info>
                 </Card>
             </Body>
