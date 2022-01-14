@@ -22,7 +22,9 @@ export default function Project3() {
                 <Card>
                     <Logo>
                         <a target="_blank" href="https://labe-food2.surge.sh/"><img src={ifuture}></img></a>
+                        <p>*Click the logo to go to the website</p>
                     </Logo>
+                    <a target="_blank" href="https://github.com/future4code/paiva-labe-food2"><i class="ri-github-fill ri-2x"></i></a>
                     <Info>
                         <p>Created as a project for Labenu. This app has similar features to iFood. It was made
                             using a public API, please make sure to use DevTools to view the page as if it was in a mobile. </p>

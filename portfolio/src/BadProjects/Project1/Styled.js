@@ -49,32 +49,41 @@ export const Projects = styled.div`
         color:#FAA353;
         margin-left:5px;
         font-size:40px;
-        
+    }
+    @media only screen and (max-width: 768px) {
+        h3{
+            font-size:25px;
+        }
+        h3:nth-child(2){
+        color:white;
+        font-size:25px;
+    }
     }
 `
 export const Card = styled.div`
     margin-top:20px;
     height:550px;
     width:700px;
-    background-color:#F3F3F3;
+    background-color:#F49898;
     border-radius:10%;
     z-index:2;
+    margin-bottom:20px;
     display:flex;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
-    margin-bottom:20px;
-    padding:8px;
     img{
-        margin-top:100px;
-        margin-bottom:100px;
-        height:200px;
+        margin-top:60px;
+        margin-bottom:80px;
+        height:300px;
         :hover{
             -webkit-transform: scale(1.1);
             -ms-transform: scale(1.1);
             transform: scale(1.1);
             cursor:pointer;
-        }
+            background-color:#FFB5B5;
+            border-radius:15em;
+        }    
     }
     a{
         margin-bottom:16px;
@@ -82,10 +91,6 @@ export const Card = styled.div`
         color:black;
     }
     @media only screen and (max-width: 768px) {
-        img{
-            width:300px;
-            height:150px;
-        }
         width:90%;
         border-radius:0;
         height:600px;

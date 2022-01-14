@@ -4,6 +4,7 @@ export const HeaderMain = styled.div`
     position:sticky;
     background-color:#132020;
     height:100px;
+    z-index:8;
 `
 export const Headers = styled.div`
     display:flex;

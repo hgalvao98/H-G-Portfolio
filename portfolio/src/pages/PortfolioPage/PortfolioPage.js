@@ -9,11 +9,11 @@ export default function PortfolioPage() {
     const history = useHistory()
 
     const projectsTitle = ".projects{"
-    const project1 = "LabeX;"
-    const project2 = "Minimal-Match;"
+    const project1 = "TodoApp;"
+    const project2 = "TeslaApp(React Native);"
     const project3 = "iFuture;"
     const project4 = "FriendsApp(Ruby On Rails);"
-    const project5 = "Liqfy"
+    const project5 = "Liqfy;"
 
     return (
         <Main>

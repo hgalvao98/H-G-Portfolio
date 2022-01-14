@@ -2,6 +2,9 @@ import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
+    @media only screen and (max-width: 768px) {
+        height:unset;
+    }
 `
 
 export const Body = styled.div`
@@ -50,12 +53,13 @@ export const Projects = styled.div`
 `
 export const Card = styled.div`
     margin-top:20px;
-    height:550px;
+    height:60s0px;
     width:700px;
     background-color:#234359;
     border-radius:10%;
     z-index:2;
     display:flex;
+    margin-bottom:20px;
     flex-direction:column;
     align-items:center;
     justify-content:flex-start;
@@ -63,19 +67,24 @@ export const Card = styled.div`
         margin-top:30px;
         margin-bottom:10px;
         height:300px;
-        :hover{
-            -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            cursor:pointer;
-            background-color:#78BFE7;
-            border-radius:15em;
-        }
-        
+    }
+    a{
+        margin-bottom:16px;
+        text-decoration:none;
+        color:white;
+    }
+    @media only screen and (max-width: 768px) {
+        width:90%;
+        border-radius:0;
+        height:700px;
+        border-radius:15px;
     }
 `
 export const Logo = styled.div`
-
+    margin-bottom:10px;
+    p{
+        text-align:center;
+    }
 `
 
 export const Info = styled.div`
@@ -83,6 +92,9 @@ export const Info = styled.div`
     align-items:center;
     flex-direction:column;
     justify-content:center;
+    p{
+        text-align:center;
+    }
     p:nth-child(1){
         text-align:center;
         margin:0 8px;

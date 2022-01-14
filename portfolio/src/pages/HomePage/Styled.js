@@ -1,4 +1,4 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
@@ -29,4 +29,10 @@ export const Body = styled.div`
             color:white;
         }
     }
+    @media only screen and (max-width: 768px) {
+        h1{
+            font-size:80px;
+        }
+    }
+
 `

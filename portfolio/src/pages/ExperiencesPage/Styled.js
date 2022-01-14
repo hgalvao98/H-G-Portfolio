@@ -39,6 +39,15 @@ export const Body = styled.div`
         height:90px;
         width:100px;
     }
+    @media only screen and (max-width: 768px) {
+        h2{
+            align-self:center;
+        }
+    }
+    hr{
+        color:white;
+        width:100%;
+    }
 `
 
 export const Exp = styled.div`
@@ -58,6 +67,9 @@ export const Exp = styled.div`
         border-radius:50%;
     }
     margin-bottom:20px;
+    @media only screen and (max-width: 768px) {
+        flex-direction:column;   
+    }
 `
 
 export const Technologies = styled.div`
@@ -72,6 +84,11 @@ export const Technologies = styled.div`
     background-color:white;
     border-radius:15px;
     margin-bottom:16px;
+    @media only screen and (max-width: 768px) {
+        flex-wrap:wrap;
+        width:100%;
+        flex-direction:column;
+    }
 `
 
 

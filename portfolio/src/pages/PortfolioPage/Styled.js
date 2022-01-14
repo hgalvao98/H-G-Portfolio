@@ -1,9 +1,13 @@
-import styled  from "styled-components";
+import styled from "styled-components";
 
 export const Main = styled.div`
     height:100vh;
+    @media only screen and (max-width: 768px) {
+        
+    }
 `
 export const Body = styled.div`
+    margin-bottom:20px;
     height:100%;
     display:flex;
     flex-direction:column;
@@ -27,6 +31,17 @@ export const Body = styled.div`
             cursor:pointer;
             background-color:#333;
         }
+    }
+    @media only screen and (max-width: 768px) {
+        margin-bottom:0;
+        h1{
+            font-size:80px;
+        }
+        h3{
+            font-size:1.5rem;
+            margin-top:10px;
+        }
+    }
 `
 export const Projects = styled.div`
     display:flex;

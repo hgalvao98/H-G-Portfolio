@@ -1,15 +1,15 @@
 import React from 'react'
 import { useHistory } from 'react-router-dom'
 import Header from '../../components/header/Header'
-import { goToPortfolio, goToProject1 } from '../../routes/coordinator'
-import tinder from '../../imgs/tinder.png'
-import { Main, Body, Projects, Card, Info, Logo } from './Styled'
+import { goToPortfolio } from '../../routes/coordinator'
+import tesla from '../../imgs/tesla.png'
+import { Main, Body, Projects, Card, Info, Logo, Icons } from './Styled'
 
 
-export default function Project1() {
+export default function Project2() {
     const history = useHistory()
 
-    const project2 = "Minimal Match;"
+    const project2 = "TeslaApp;"
 
     return (
         <Main>
@@ -21,14 +21,19 @@ export default function Project1() {
                 </Projects>
                 <Card>
                     <Logo>
-                        <a target="_blank" href="http://minimal-match.surge.sh/"><img src={tinder}></img></a>
+                        <img src={tesla}></img>
                     </Logo>
+                    <Icons>
+                        <a target="_blank" href="https://github.com/hgalvao98/TeslaApp"><i class="ri-github-fill ri-2x"></i></a>
+                        <a target="_blank" href="https://snack.expo.dev/@hgalvao/33689a"><i class="ri-smartphone-line ri-2x"></i></a>
+                    </Icons>
                     <Info>
-                        <p>Created as a project for Labenu. This app has similar features to Tinder. It was made
-                            using a public API. </p>
+                        <p>This was my first React Native project. It is a clone of the Tesla Mobile Website as an App.
+                            I am very proud as I made the static part with an introductory course and the rest I did by myself. </p>
                         <br />
-                        <p>Technologies used: React, Styled-Components, Axios.   </p>
+                        <p>Technologies used: React Native, React-Navigation, Expo</p>
                         <br />
+                        <p>*Click the phone icon to see it working with Expo Snack</p>
                     </Info>
                 </Card>
 

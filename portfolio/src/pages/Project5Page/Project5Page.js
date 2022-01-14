@@ -22,6 +22,7 @@ export default function Project5() {
                 <Card>
                     <Logo>
                         <a target="_blank" href="https://liqfy.surge.sh/"><img src={liqfy}></img></a>
+                        <p>*Click the logo to go to the website</p>
                     </Logo>
                     <a target="_blank" href="https://github.com/hgalvao98/liqfy"><i class="ri-github-fill ri-2x"></i></a>
                     <Info>

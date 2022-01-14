@@ -11,7 +11,6 @@ import Project3Page from '../pages/Project3Page/Project3Page';
 import Project4Page from '../pages/Project4Page/Project4Page';
 import Project5Page from '../pages/Project5Page/Project5Page';
 
-
 export function Router() {
     return (
         <BrowserRouter>
